@@ -1,25 +1,33 @@
-# GIST 604B – WebGIS & Full-Stack Orchestration
-Repository for building an interactive web mapping application using HTML, CSS, JavaScript, and Leaflet.
+# WebGIS Application with Leaflet
+
+**Student:** Tyra Clary  
+**Course:** GIST 604B – Open Source GIS  
+**Module:** Assignment 6 – WebGIS with Leaflet  
+**University of Arizona**
+
+## Project Description
+This project builds a web-based GIS application using Leaflet. It displays spatial data including restaurants, railway lines, and land use areas in Clark County, Nevada.
+
+## Tools and Technologies
+- Leaflet.js
+- HTML
+- CSS
+- JavaScript
+- GeoJSON
+
+## What I Did
+- Created an interactive web map using Leaflet
+- Loaded GeoJSON datasets (points, lines, polygons)
+- Styled map layers and added popups
+- Implemented layer controls for user interaction
+- Published the map using GitHub Pages
+
+## How to View / Run
+- Open `index.html` in a browser  
+- OR view the live site on GitHub Pages  
 
 ## Repository Structure
-    .
-    ├── data/
-    │   ├── your_point_layer.geojson
-    │   ├── your_line_layer.geojson
-    │   └── your_polygon_layer.geojson
-    ├── js/
-    │   └── your_js_file.js
-    ├── css/
-    │   └── your_css_file.css
-    ├── index.html
-    ├── package.json
-    ├── package-lock.json
-    ├── .gitignore
-    └── README.md
-
-## Notes
-- Replace the placeholder filenames in `data/`, `js/`, and `css/` with your own files.
-- All GeoJSON datasets must be in WGS84 (EPSG:4326) and placed in the `data/` folder.
-- Run `npm install` to install dependencies and `npm start` to launch the local development server.
-- Open `http://localhost:8080` in your browser to preview your map during development.
-- The final web map is published using GitHub Pages.
+- `data/` – GeoJSON datasets  
+- `js/` – JavaScript map logic  
+- `css/` – styling  
+- `index.html` – main webpage  
